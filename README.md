@@ -1,4 +1,4 @@
-# ⚡ Projets Arduino — du capteur au digicode
+# Projets Arduino — du capteur au digicode
 
 Série de montages **Arduino (C++)** réalisés en Bachelor 1 à l'IPSA (cours d'électronique), en binôme.
 L'objectif : prendre en main des composants un par un, puis les combiner dans des systèmes de plus en plus complets, jusqu'à un **digicode d'immeuble** avec code gardien et retour sonore.
@@ -9,7 +9,7 @@ Démarche suivie pour chaque montage : **lecture des datasheets → simulation s
 
 ---
 
-## 📂 Contenu
+## Contenu
 
 | # | Projet | Composants | Notions |
 |---|---|---|---|
@@ -20,7 +20,7 @@ Démarche suivie pour chaque montage : **lecture des datasheets → simulation s
 | 05 | [Digicode](05_digicode) | Clavier 4x4, LCD, LED | Saisie de code, temporisation non bloquante avec `millis()` |
 | 06 | [Digicode avec code gardien et buzzer](06_digicode_gardien_buzzer) | Clavier 4x4, LCD, LED, buzzer actif | Machine à états (mode normal / mode gardien), code modifiable, signaux sonores |
 
-## 🔐 Projet phare : le digicode (06)
+## Projet phare : le digicode (06)
 
 Simulation d'un digicode d'immeuble :
 
@@ -33,7 +33,7 @@ Simulation d'un digicode d'immeuble :
 |---|---|
 | ![Tinkercad](images/06_tinkercad.jpg) | ![Montage](images/06_montage.jpg) |
 
-## 📸 Les autres montages
+## Les autres montages
 
 | 01 — LED + photorésistance | 02 — Servo + potentiomètre |
 |---|---|
@@ -47,7 +47,7 @@ Pour le montage 03, un premier programme a servi à **lire les codes hexadécima
 
 ![Moniteur série](images/03_moniteur_serie.jpg)
 
-## 🛠️ Utiliser les codes
+## Utiliser les codes
 
 1. Ouvrir le fichier `.ino` d'un dossier dans l'**Arduino IDE**
 2. Installer les bibliothèques nécessaires via *Outils → Gérer les bibliothèques* :
@@ -59,7 +59,7 @@ Pour le montage 03, un premier programme a servi à **lire les codes hexadécima
 
 Brochage du clavier 4x4 (montages 04 à 06) : lignes sur les pins 13, 12, 11, 10 — colonnes sur 9, 8, 7, 6. LED sur la pin 5, buzzer sur la pin 4.
 
-## 🧠 Ce que j'ai appris
+## Ce que j'ai appris
 
 - Lire une datasheet pour comprendre un composant avant de le câbler
 - Simuler sur Tinkercad avant de passer au montage physique
@@ -67,6 +67,6 @@ Brochage du clavier 4x4 (montages 04 à 06) : lignes sur les pins 13, 12, 11, 10
 - Structurer un programme en états et gérer le temps sans `delay()` bloquant
 - Déboguer méthodiquement avec le moniteur série
 
-## 👤 Contact
+## Contact
 
 **Timothé Bardoux** — étudiant ingénieur à l'IPSA · [Mon profil GitHub](https://github.com/timothebardoux-bit)
