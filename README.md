@@ -69,4 +69,4 @@ Brochage du clavier 4x4 (montages 04 à 06) : lignes sur les pins 13, 12, 11, 10
 
 ## Contact
 
-**Timothé Bardoux** — étudiant ingénieur à l'IPSA · [Mon profil GitHub](https://github.com/timothebardoux-bit)
+**Timothé Bardoux** — étudiant ingénieur à l'IPSA · [Mon profil GitHub](https://github.com/tbardoux)
